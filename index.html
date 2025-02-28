@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maia AI - Transformando la venta inmobiliaria con IA</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="#" class="logo">
+                    <i class="fas fa-robot logo-icon"></i>
+                    Maia<span>AI</span>
+                </a>
+                <nav>
+                    <ul>
+                        <li><a href="#features">Características</a></li>
+                        <li><a href="#demo">Demo</a></li>
+                        <li><a href="#pricing">Precios</a></li>
+                        <li><a href="#contact">Contacto</a></li>
+                    </ul>
+                </nav>
+                <button class="mobile-menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <a href="#pricing" class="cta-button">Comenzar</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Transformando la venta inmobiliaria con IA</h1>
+                <p>Maia convierte la venta de propiedades en una experiencia digital única, interactiva y personalizada, acelerando decisiones y eliminando fricciones en el proceso de compra.</p>
+                <div class="hero-ctas">
+                    <a href="#demo" class="cta-button">Ver Demo</a>
+                    <a href="#pricing" class="secondary-button">Planes</a>
+                </div>
+            </div>
+            <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1073&q=80" alt="Maia AI Virtual Tour" class="hero-image">
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-title">
+                <h2>Características Principales</h2>
+                <p>Descubre cómo Maia está revolucionando la venta inmobiliaria digital</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class="fas fa-comments feature-icon"></i>
+                    <h3>IA Conversacional</h3>
+                    <p>Nuestra IA interactúa con los clientes en lenguaje natural, entendiendo sus necesidades y guiándolos en todo el proceso de compra.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-vr-cardboard feature-icon"></i>
+                    <h3>Tours Virtuales 3D</h3>
+                    <p>Recorridos inmersivos guiados por IA que muestran las propiedades en detalle, permitiendo a los clientes explorar cada rincón.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-chart-line feature-icon"></i>
+                    <h3>Calificación de Leads</h3>
+                    <p>Segmentación automática de clientes, gestión de agendamientos y simulación de financiamiento para optimizar el proceso de venta.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Virtual Tour Demo -->
+    <section class="vr-tour" id="demo">
+        <div class="container">
+            <div class="section-title">
+                <h2>Experimenta Maia en Acción</h2>
+                <p>Prueba nuestro recorrido virtual guiado por IA y descubre la nueva forma de vender propiedades</p>
+            </div>
+            <div class="tour-container">
+                <iframe src="https://maiavr.s3.sa-east-1.amazonaws.com/demo.html" class="tour-iframe" allowfullscreen></iframe>
+                <div class="tour-overlay" id="tour-overlay">
+                    <h3>Iniciar Recorrido Virtual</h3>
+                    <a href="#" class="cta-button" id="start-tour">Comenzar</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing" id="pricing">
+        <div class="container">
+            <div class="section-title">
+                <h2>Planes y Precios</h2>
+                <p>Soluciones flexibles para inmobiliarias de todos los tamaños</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <i class="fas fa-home pricing-icon"></i>
+                    <h3>Básico</h3>
+                    <div class="price">$40 <span>/mes</span></div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> 5 propiedades activas</li>
+                        <li><i class="fas fa-check"></i> Tours virtuales básicos</li>
+                        <li><i class="fas fa-check"></i> IA conversacional</li>
+                        <li><i class="fas fa-check"></i> Soporte por email</li>
+                        <li><i class="fas fa-check"></i> Análisis básico de leads</li>
+                    </ul>
+                    <a href="#" class="cta-button">Seleccionar Plan</a>
+                </div>
+                <div class="pricing-card popular">
+                    <i class="fas fa-building pricing-icon"></i>
+                    <h3>Profesional</h3>
+                    <div class="price">$120 <span>/mes</span></div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> 20 propiedades activas</li>
+                        <li><i class="fas fa-check"></i> Tours virtuales HD</li>
+                        <li><i class="fas fa-check"></i> IA conversacional avanzada</li>
+                        <li><i class="fas fa-check"></i> Soporte prioritario</li>
+                        <li><i class="fas fa-check"></i> Análisis completo de leads</li>
+                        <li><i class="fas fa-check"></i> Integración con CRM</li>
+                    </ul>
+                    <a href="#" class="cta-button">Seleccionar Plan</a>
+                </div>
+                <div class="pricing-card">
+                    <i class="fas fa-city pricing-icon"></i>
+                    <h3>Empresarial</h3>
+                    <div class="price">$200 <span>/mes</span></div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Propiedades ilimitadas</li>
+                        <li><i class="fas fa-check"></i> Tours virtuales 4K</li>
+                        <li><i class="fas fa-check"></i> IA personalizada</li>
+                        <li><i class="fas fa-check"></i> Soporte 24/7</li>
+                        <li><i class="fas fa-check"></i> Análisis avanzado y reportes</li>
+                        <li><i class="fas fa-check"></i> API completa</li>
+                        <li><i class="fas fa-check"></i> Marca blanca</li>
+                    </ul>
+                    <a href="#" class="cta-button">Seleccionar Plan</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-title">
+                <h2>Lo que dicen nuestros clientes</h2>
+                <p>Inmobiliarias que ya están transformando su forma de vender con Maia</p>
+            </div>
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Maia ha revolucionado nuestra forma de vender propiedades. Nuestros clientes adoran la experiencia y hemos aumentado nuestras ventas en un 40% desde que implementamos la plataforma."</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Cliente">
+                            </div>
+                            <div class="author-info">
+                                <h4>Carlos Mendoza</h4>
+                                <p>Director Comercial, Inmobiliaria Futuro</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"La integración de IA con tours virtuales es exactamente lo que necesitábamos. Nuestros agentes pueden atender más clientes y el proceso de venta se ha acelerado significativamente."</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Cliente">
+                            </div>
+                            <div class="author-info">
+                                <h4>Ana Martínez</h4>
+                                <p>CEO, Propiedades Exclusivas</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"La calidad de los leads ha mejorado drásticamente. Ahora cuando un cliente nos contacta, ya conoce la propiedad y está mucho más cerca de tomar una decisión de compra."</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <img src="https://randomuser.me/api/portraits/men/67.jpg" alt="Cliente">
+                            </div>
+                            <div class="author-info">
+                                <h4>Roberto Sánchez</h4>
+                                <p>Gerente de Ventas, Grupo Inmobiliario Santiago</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contáctanos</h2>
+                <p>¿Listo para transformar tu negocio inmobiliario? Hablemos.</p>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Ubicación</h4>
+                            <p>Santiago, Chile</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>info@maiavr.cl</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <div>
+                            <h4>Teléfono</h4>
+                            <p>+56 9 1234 5678</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Empresa">
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Mensaje" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="cta-button">Enviar Mensaje</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <a href="#" class="footer-logo">
+                        <i class="fas fa-robot"></i> MaiaAI
+                    </a>
+                    <p>Transformamos la venta de propiedades en una experiencia de compra digital única, interactiva, personalizada y simple, acelerando la toma de decisiones.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Empresa</h4>
+                    <ul>
+                        <li><a href="#">Sobre Nosotros</a></li>
+                        <li><a href="#">Nuestro Equipo</a></li>
+                        <li><a href="#">Carreras</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Producto</h4>
+                    <ul>
+                        <li><a href="#">Características</a></li>
+                        <li><a href="#">Precios</a></li>
+                        <li><a href="#">Demo</a></li>
+                        <li><a href="#">API</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Soporte</h4>
+                    <ul>
+                        <li><a href="#">Centro de Ayuda</a></li>
+                        <li><a href="#">Documentación</a></li>
+                        <li><a href="#">Contacto</a></li>
+                        <li><a href="#">Términos de Servicio</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Maia AI. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Chat Interface -->
+    <div class="chat-toggle" id="chat-toggle">
+        <i class="fas fa-comment"></i>
+    </div>
+    <div class="chat-container" id="chat-container">
+        <div class="chat-header">
+            <div class="chat-title">
+                <div class="avatar">
+                    <i class="fas fa-robot"></i>
+                </div>
+                <span>Maia Asistente</span>
+            </div>
+            <button class="chat-close" id="chat-close">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="chat-body" id="chat-body">
+            <div class="message incoming">
+                <div class="message-content">
+                    ¡Hola! Soy Maia, tu asistente virtual inmobiliario. ¿En qué puedo ayudarte hoy?
+                </div>
+                <div class="message-time">Ahora</div>
+            </div>
+        </div>
+        <div class="chat-input">
+            <input type="text" placeholder="Escribe un mensaje..." id="chat-input-field">
+            <button id="chat-send">
+                <i class="fas fa-paper-plane"></i>
+            </button>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html> 
